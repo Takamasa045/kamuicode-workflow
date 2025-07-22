@@ -3,25 +3,6 @@ name: Create Video with Background Removal
 on:
   workflow_dispatch:
     inputs:
-      prompt:
-        description: "動画のプロンプト"
-        required: true
-        type: string
-      background_color:
-        description: "背景色 (transparent / white / black / green)"
-        required: true
-        type: string
-      rembg_model:
-        description: "背景除去モデル (u2net / u2netp / silueta / others)"
-        required: true
-        type: string
-
-
-name: Create Video with Background Removal
-
-on:
-  workflow_dispatch:
-    inputs:
       video_prompt:
         description: '動画生成プロンプト (例: 猫が公園で遊んでいる様子)'
         required: true
