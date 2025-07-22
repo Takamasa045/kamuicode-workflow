@@ -1,12 +1,64 @@
 {
-  "mcp": {
-    "default": "t2v-fal-veo3-fast",
-    "tools": {
-      "t2v-fal-veo3-fast": {
-        "agent": "veo3-fast",
-        "type": "t2v",
-        "output_dir": "output/videos"
-      }
+  "mcpServers": {
+    "t2i-google-imagen3": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/t2i/google/imagen",
+      "description": "Google Imagen 3 Text-to-Image Generation"
+    },
+    "t2m-google-lyria": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/t2m/google/lyria",
+      "description": "Google Lyria Text-to-Music Generation ⭐"
+    },
+    "t2i-fal-imagen4-ultra": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/t2i/fal/imagen4/ultra",
+      "description": "Fal.ai Imagen4 Ultra Text-to-Image (High Quality) ⭐"
+    },
+    "t2i-fal-imagen4-fast": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/t2i/fal/imagen4/fast",
+      "description": "Fal.ai Imagen4 Fast Text-to-Image (Speed Optimized) ⭐"
+    },
+    "t2v-fal-veo3-fast": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/t2v/fal/veo3/fast",
+      "description": "Fal.ai Veo3 Fast Text-to-Video Generation ⭐"
+    },
+    "i2v-fal-hailuo-02-pro": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/i2v/fal/minimax/hailuo-02/pro",
+      "description": "Fal.ai Hailuo-02 Pro Image-to-Video Generation ⭐"
+    },
+    "i2i-fal-flux-kontext-max": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/i2i/fal/flux/kontext/max",
+      "description": "Fal.ai Flux Kontext Max Image-to-Image Enhancement ⭐"
+    },
+    "i2i3d-fal-hunyuan3d-v21": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/i2i3d/fal/hunyuan/3d-v21",
+      "description": "Fal.ai Hunyuan3D v2.1 Image-to-3D Model Generation ⭐"
+    },
+    "v2a-fal-thinksound": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/v2a/fal/thinksound",
+      "description": "Fal.ai ThinkSound Video-to-Audio Generation ⭐"
+    },
+    "v2v-fal-luma-ray2-modify": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/v2v/fal/luma/dream-machine/ray-2/modify",
+      "description": "Fal.ai Luma Dream Machine Ray-2 Video-to-Video Modification ⭐"
+    },
+    "r2v-fal-vidu-q1": {
+      "type": "http",
+      "url": "https://mcp-hunyuan3d-fix-20250710-141028-db555b0a-zl3xx5lsaq-uc.a.run.app/r2v/fal/vidu/q1",
+      "description": "Fal.ai Vidu Q1 Reference-to-Video Generation ⭐"
+    },
+    "s2t-minimax-speech-02-turbo": {
+      "type": "http",
+      "url": "https://mcp-minimax-speech-02-turbo-only-20250713-135005--zl3xx5lsaq-uc.a.run.app",
+      "description": "Minimax Speech-02 Turbo Speech-to-Text Generation ⭐"
     }
   }
 }
